@@ -1,18 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://archirapid.streamlit.app">
-  <title>ArchiRapid — Redirigiendo...</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO principal -->
+  <title>ArchiRapid — Marketplace de Fincas y Diseño Arquitectónico con IA</title>
+  <meta name="description" content="Plataforma PropTech española: diseño de vivienda con IA, marketplace de fincas, módulo MLS para inmobiliarias y portal para arquitectos. Proyectos 3D, planos y presupuestos en minutos.">
+  <meta name="keywords" content="diseño arquitectónico IA, marketplace fincas, planos vivienda, presupuesto construcción, MLS inmobiliarias, ArchiRapid">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="MYMC9PbLo2hv4GnZSIO4gegHA9-FjHUH66ODjasnaSQ">
+  <link rel="canonical" href="https://archirapid.com">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://archirapid.com">
+  <meta property="og:title" content="ArchiRapid — Marketplace de Fincas y Diseño IA">
+  <meta property="og:description" content="Diseña tu vivienda con IA, encuentra la finca perfecta y conecta con arquitectos en España. Planos 3D, presupuesto CTE y más.">
+  <meta property="og:image" content="https://archirapid.com/og-image.png">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ArchiRapid">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://archirapid.com">
+  <meta name="twitter:title" content="ArchiRapid — Marketplace de Fincas y Diseño IA">
+  <meta name="twitter:description" content="Diseña tu vivienda con IA, encuentra la finca perfecta y conecta con arquitectos en España.">
+  <meta name="twitter:image" content="https://archirapid.com/og-image.png">
+
+  <!-- JSON-LD: WebSite + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://archirapid.com/#website",
+        "url": "https://archirapid.com",
+        "name": "ArchiRapid",
+        "description": "Marketplace PropTech español de fincas y diseño arquitectónico con IA",
+        "inLanguage": "es-ES",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://archirapid.streamlit.app/?page=home&search={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://archirapid.com/#organization",
+        "name": "ArchiRapid",
+        "url": "https://archirapid.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://archirapid.com/og-image.png"
+        },
+        "description": "SaaS PropTech para diseño de vivienda con inteligencia artificial, marketplace de fincas y módulo MLS para inmobiliarias en España.",
+        "areaServed": "ES",
+        "serviceType": ["Marketplace inmobiliario", "Diseño arquitectónico IA", "Módulo MLS para agencias"]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Redirect JS para humanos (no bloquea crawlers) -->
+  <script>
+    (function() {
+      var ua = navigator.userAgent || '';
+      var isBot = /bot|crawler|spider|crawling|googlebot|bingbot|facebookexternalhit/i.test(ua);
+      if (!isBot) {
+        window.location.replace('https://archirapid.streamlit.app');
+      }
+    })();
+  </script>
+
   <style>
-    body { font-family: sans-serif; display: flex; align-items: center;
-           justify-content: center; height: 100vh; margin: 0; background: #f5f5f5; }
-    p { color: #555; font-size: 1.1rem; }
-    a { color: #e63946; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; background: #0f1a2c; color: #e8eaf0; }
+    .hero { max-width: 860px; margin: 80px auto; padding: 0 24px; text-align: center; }
+    h1 { font-size: 2.4rem; font-weight: 700; color: #7ec8e3; margin-bottom: 16px; }
+    h2 { font-size: 1.1rem; font-weight: 400; color: #aab4c4; margin-bottom: 40px; line-height: 1.6; }
+    .cta { display: inline-block; background: #e87a3e; color: #fff; text-decoration: none;
+           padding: 14px 36px; border-radius: 8px; font-size: 1rem; font-weight: 600; }
+    .cta:hover { background: #cf6530; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 60px; }
+    .feat { background: #1a2b40; border-radius: 10px; padding: 24px 18px; }
+    .feat h3 { font-size: 1rem; color: #7ec8e3; margin: 0 0 8px; }
+    .feat p { font-size: 0.88rem; color: #8a9ab0; margin: 0; line-height: 1.5; }
+    footer { text-align: center; padding: 40px 24px 24px; font-size: 0.8rem; color: #5a6a7a; }
   </style>
-  <script>window.location.replace("https://archirapid.streamlit.app");</script>
 </head>
 <body>
-  <p>Redirigiendo a ArchiRapid… <a href="https://archirapid.streamlit.app">Haz clic aquí si no redirige.</a></p>
+  <div class="hero">
+    <h1>🏡 ArchiRapid</h1>
+    <h2>Marketplace PropTech español de fincas y diseño arquitectónico con inteligencia artificial.<br>
+        Planos 3D, presupuesto CTE y conexión con arquitectos y constructores — en minutos.</h2>
+    <a class="cta" href="https://archirapid.streamlit.app">Acceder a la plataforma →</a>
+
+    <div class="features">
+      <div class="feat">
+        <h3>🤖 Diseño con IA</h3>
+        <p>Genera el plano de tu vivienda con inteligencia artificial: habitaciones, zonas, m² y normativa CTE.</p>
+      </div>
+      <div class="feat">
+        <h3>🗺️ Marketplace de Fincas</h3>
+        <p>Explora fincas con geolocalización, datos catastrales y edificabilidad en tiempo real.</p>
+      </div>
+      <div class="feat">
+        <h3>🏢 Módulo MLS</h3>
+        <p>Para inmobiliarias: gestión colaborativa de cartera con fichas, reservas y mercado compartido.</p>
+      </div>
+      <div class="feat">
+        <h3>🔧 Portal Arquitectos</h3>
+        <p>Proyectos con entrega de memorias, planos SVG, exportación GLB y presupuesto detallado.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 ArchiRapid · <a href="https://archirapid.streamlit.app/?page=home" style="color:#5a6a7a">Plataforma</a> ·
+    <a href="https://archirapid.streamlit.app/?page=mls" style="color:#5a6a7a">MLS Inmobiliarias</a> ·
+    <a href="https://archirapid.streamlit.app/?page=arquitectos" style="color:#5a6a7a">Arquitectos</a>
+  </footer>
 </body>
 </html>
