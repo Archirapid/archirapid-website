@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Paginas publicas indexables
+Allow: /?page=home
+Allow: /?selected_plot=
+Allow: /?selected_project_v2=
+Allow: /?selected_prefab=
+Allow: /?mls_ficha=
+Allow: /?page=arquitectos
+Allow: /?page=mls
+Allow: /?page=prefabricadas
+Allow: /?page=estudiantes
+Allow: /?page=founding-partners
+
+# No indexar portales privados ni rutas de admin
+Disallow: /?page=admin
+Disallow: /?page=cliente
+Disallow: /?page=proveedor
+Disallow: /?page=propietarios
+Disallow: /?page=disenador
+Disallow: /?page=lola
+Disallow: /?page=registro
+Disallow: /?stripe_session=
+Disallow: /?pago=
+Disallow: /?reset_token=
+Disallow: /?mls_reservar=
+Disallow: /?mls_pago=
+
+# Sitemap
+Sitemap: https://archirapid.com/sitemap.xml
