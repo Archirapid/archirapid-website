@@ -1,61 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Dominio principal / landing -->
   <url>
     <loc>https://archirapid.com</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-
-  <!-- Marketplace de fincas -->
-  <url>
-    <loc>https://archirapid.streamlit.app/?page=home</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Portal arquitectos -->
-  <url>
-    <loc>https://archirapid.streamlit.app/?page=arquitectos</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- MLS Inmobiliarias -->
-  <url>
-    <loc>https://archirapid.streamlit.app/?page=mls</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Catálogo prefabricadas -->
-  <url>
-    <loc>https://archirapid.streamlit.app/?page=prefabricadas</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Portal estudiantes -->
-  <url>
-    <loc>https://archirapid.streamlit.app/?page=estudiantes</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Socios fundadores -->
-  <url>
-    <loc>https://archirapid.streamlit.app/?page=founding-partners</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 
 </urlset>
